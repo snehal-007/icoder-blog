@@ -1,0 +1,20 @@
+- Make a requirements.txt file in your project for other developer install require packages
+
+- if your Virtual envirnment setup is not set follow this steps
+
+1. open powershell as administration
+
+2. $ set-executionpolicy remotesigned
+
+after apply this command your virtual envirnment is set for your new projects
+
+
+
+$ pip install virtualenv
+
+$ virtualenv                        - virtual envirnment commands
+
+$ virtualenv Project_Name           - Create virtual envirnment in your Project_Name
+
+$ pip install -r requirements.txt   - your all packages install regarding your projects
+
